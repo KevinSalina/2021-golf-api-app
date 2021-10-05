@@ -104,7 +104,7 @@ module.exports = {
         name: 'The U.S. Open',
         courseId: 4,
         winnerId: 1,
-        purse: 4,
+        purse: 4500000,
         date: '6-20-2021'
       },
       {

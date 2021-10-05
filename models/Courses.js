@@ -4,7 +4,7 @@ const db = require('../configs/database')
 const Courses = db.define('courses', {
   id: {
     type: Sequelize.INTEGER,
-    autoincrement: true,
+    autoIncrement: true,
     primaryKey: true
   },
   name: {

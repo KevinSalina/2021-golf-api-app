@@ -36,4 +36,12 @@ const createGolfer = async (golferData) => {
   }
 }
 
-module.exports = { getAllGolfers, getGolferById, createGolfer }
+const deleteGolfer = async (id) => {
+  return await db.Golfers.destroy({
+    where: {
+      id: id
+    }
+  })
+}
+
+module.exports = { getAllGolfers, getGolferById, createGolfer, deleteGolfer }
